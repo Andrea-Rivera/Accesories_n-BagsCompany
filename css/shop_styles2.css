@@ -1,0 +1,321 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+#container {
+    margin: 10px auto;
+    width: 80%;
+    min-width: 600px;
+}
+
+/* Start Navigation Bar */
+nav {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0 0 1.2em;
+    z-index: 1004;
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+    box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1.2em auto;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #272727;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+
+  nav a:hover {
+      color: #C30F76;
+  }
+ /* End Navigation Bar */
+
+  /* HEADINGS */
+
+  header {
+      margin-top: 75px;
+      text-align: center;
+  }
+
+  h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-bottom: 2em;
+  }
+
+  h3 {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-bottom: 2em;
+    text-align: left;
+
+  }
+
+/******** HOME *********/
+  /* Main Image */
+
+/* MAIN */
+
+img {
+    width: 100%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 40px;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.main-image {
+    position: relative;
+}
+
+
+/* SMALL IMAGES */
+.small-image-content p {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.small-image {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1% 0 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+.small-image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.small-image:last-of-type {
+    margin-right: 0;
+}
+
+/* CATALOG BUTTON SMALL IMAGE */
+.small-image .read-more {
+    margin-top: 20px;
+    line-height: 1;
+}
+.small-image .read-more a {
+    text-decoration: none;
+    line-height: 1;
+    display: inline-block;
+    background: #ffffff;
+    color: #272727;
+    font-size: 0.7em;
+    padding: 0.7em;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.small-image .read-more .arrow-icon {
+    color: #272727;
+    background: #ffffff;
+    margin-left: 0;
+    overflow: hidden;
+    opacity: 0;
+    font-size: 0.7em;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+.small-image .read-more a:hover {
+    opacity: 1;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+.small-image .read-more:hover .arrow-icon {
+    margin-left: 5px;
+    opacity: 1;
+}
+
+  
+/******** ABOUT *********/
+    article {
+        background-color: white;
+        padding: 20px 40px 40px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: .2em .2em .5em #999;
+        width: auto;
+        text-align: center;
+    } 
+
+     .about-text{
+        text-align: center;
+    }
+
+    .about-image{
+
+        display: inline-block;
+        width: 50%;
+        border-radius: 20%;
+    }
+   
+/******** CATALOG *********/
+  
+.card{
+    width: 18rem;
+}
+.card-img-top{
+    width: 50%;
+    height: 50%;
+}  
+
+
+/******** CONTACT *********/
+#contact-us{
+    padding: 80px 20px;
+    background: #f7f7f7;
+    margin: 50px;
+    
+    }
+    #contact-us .wrapper{
+        max-width: 1200px; 
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #contact-us .pannel-left{
+    display: inline-block;
+    padding-right: 10%;
+    vertical-align: top;
+    width: 60%;
+    line-height: 1.5;
+    text-align: left;
+    }
+
+    #contact-us .pannel-right {
+        text-align: left;
+        display: inline-block;
+        width: 30%;
+        line-height: 1.5;
+    }
+    
+    #contact-us .contact-form{
+        margin-top: 30px;
+    }
+    
+    #contact-us .contact-form-field{
+       border: 1px solid #e5e5e5;
+       border-radius:5px;
+       outline: 0;
+       width: 80%;
+       padding: 15px 20px;
+       margin-bottom: 20px;
+       font: 16px Roboto, sans-serif;
+       
+    }
+    
+    textarea{
+        font: 13px,Roboto,sans-serif;
+    
+    }
+    
+    #contact-us .submit-btn{
+        background: #d934b2;
+        background-image: -webkit-linear-gradient(top, #d934b2, #2980b9);
+        background-image: -moz-linear-gradient(top, #d934b2, #2980b9);
+        background-image: -ms-linear-gradient(top, #d934b2, #2980b9);
+        background-image: -o-linear-gradient(top, #d934b2, #2980b9);
+        background-image: linear-gradient(to bottom, #d934b2, #2980b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+
+    #contact-us .submit-btn:hover{
+        background: #963cfc;
+        background-image: -webkit-linear-gradient(top, #963cfc, #4d34d9);
+        background-image: -moz-linear-gradient(top, #963cfc, #4d34d9);
+        background-image: -ms-linear-gradient(top, #963cfc, #4d34d9);
+        background-image: -o-linear-gradient(top, #963cfc, #4d34d9);
+        background-image: linear-gradient(to bottom, #963cfc, #4d34d9);
+        text-decoration: none;
+    }
+
+    /******** FOOTER *********/
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    background-color:rgb(175, 123, 168);
+    text-align: center;
+    display: inline-block;
+}
+
+footer p {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    padding: 10px;
+}
+ .image-logo {
+    width: 5%;
+    height: 5%;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
