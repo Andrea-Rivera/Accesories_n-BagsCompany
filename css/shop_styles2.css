@@ -92,11 +92,10 @@ nav ul {
 /* MAIN */
 
 img {
-    width: 100%;
-    height: auto;
-    border: 0;
-    margin: 0;
-    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 main {
